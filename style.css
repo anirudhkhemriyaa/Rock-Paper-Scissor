@@ -1,0 +1,102 @@
+.body{
+    background-color: rgb(68, 66, 66);
+}
+
+#rps{
+    color: white;
+    font-family: cursive;
+    font-size: 7vmin;
+    position: absolute;
+    left: 35%;
+}
+
+#result{
+    color: white;
+    font-family: cursive;
+    font-size: 7vmin;
+    position: absolute;
+    left: 45%;
+    top: 20vmin;
+    opacity: 0;
+}
+
+.container{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+#button1{
+    height: 15vmin;
+    width: 15vmin;
+    background-image: url(Rock\ image.jpeg);
+    mix-blend-mode: darken;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#button1:hover{
+    /* filter: contrast(10px); */
+    border-color: aquamarine;
+    box-shadow: 0 0 50px 5px rgb(28, 169, 188);
+    scale: 1.1;
+    transition: all 0.2s ease-in-out;
+}
+#button2{
+    height: 15vmin;
+    width: 15vmin;
+    background-image: url(Paper\ image.jpeg);
+    mix-blend-mode: darken;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#button2:hover{
+    /* filter: contrast(10px); */
+    border-color: aquamarine;
+    box-shadow: 0 0 50px 5px rgb(28, 169, 188);
+    scale: 1.1;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+
+#button3{
+    height: 15vmin;
+    width: 15vmin;
+    background-image: url(Scissor\ image.jpeg);
+    mix-blend-mode: darken;
+    background-size: cover;
+    border-radius: 50%;
+}   
+
+#button3:hover{
+    /* filter: contrast(10px); */
+    border-color: aquamarine;
+    box-shadow: 0 0 50px 5px rgb(28, 169, 188);
+    scale: 1.1;
+    transition: all 0.2s ease-in-out;
+}
+
+
+#start{
+    height: 4vmin;
+    width: 8vmin;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    font-size: 2vmin;
+    box-shadow:0 0 10px 5px white ;
+}
+
+#restart{
+    height: 4vmin;
+    width: 8vmin;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    font-size: 1.8vmin;
+    box-shadow: 0 0 10px 5px white;
+}
